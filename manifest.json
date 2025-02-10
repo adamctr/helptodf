@@ -1,0 +1,13 @@
+{
+  "name": "Auto-remplissage Lien de suivi",
+  "version": "1.0",
+  "description": "Extension qui pré-remplit un champ input avec 'Lien de suivi :'.",
+  "manifest_version": 3,
+  "permissions": [],
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"]
+    }
+  ]
+}
